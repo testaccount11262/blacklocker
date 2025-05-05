@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language culture="ru">
+  <author>D.Borisov</author>
+  <version>1.0</version>
+  <messages>
+    <message name="MBox_CreateThemeFirst" value="Сначала создайте тему!" />
+    <message name="MBox_UnableRegisterHotKey" value="Немогу зарегестрировать горячую клавищу на смену обоев.&#xA;Горячая клавища {0} связана с другим событием." />
+    <message name="MBox_SuccesRegisterHotKey" value="Успешно зарегистрована горячая клавиша {0} на смену обоев." />
+    <message name="MBox_UpdateThemeNow" value="Обновить тему {0} сейчас?" />
+    <message name="MBox_Update" value="Обновление" />
+    <message name="MBox_YouHaveCurrentVersion" value="Вы имеете текущую версию" />
+    <message name="MBox_Update" value="Обновление" />
+    <message name="TotalWall" value="Всего обоев = " />
+    <message name="CurrentWall" value=", текущие обои = " />
+    <message name="Ball_NoCurrWall" value="Нет текущих обоев!" />
+    <message name="Ball_NoNextWall" value="Нет следующих обоев!" />
+    <message name="Ball_NoPrevWall" value="Нет предыдущих обоев!" />
+    <message name="Ball_WallSetSucces" value="Обои {0} успешно установлены." />
+    <message name="Ball_WallNotSet" value="Обои {0} не установлены!" />
+    <message name="None" value="(нет)" />
+    <message name="NextChangeAt" value="Следующая смена в " />
+    <message name="NotActive" value="Не активна" />
+    <message name="MBox_FileAlreadyInListView" value="Файл уже в ListView!" />
+    <message name="MBox_DirAlreadyInListView" value="Директория уже в ListView!" />
+    <message name="NewTheme" value="Новая Тема" />
+    <message name="NewThemePrompt" value="Введите имя для новой темы:" />
+    <message name="RenameTheme" value="Переименование Темы" />
+    <message name="RenameThemePrompt" value="Введите новое имя для темы:" />
+    <message name="MBox_RenameThemeNewName" value="Переименовать тему в &quot;{0}&quot;?" />
+    <message name="DuplicateTheme" value="Дублирование Темы" />
+    <message name="DuplicateThemePrompt" value="Введите новое имя для дублированной темы:" />
+    <message name="MBox_ThemeWithNameExist" value="Темы с именем &quot;{0}&quot; уже существует!" />
+    <message name="MBox_DeleteLastTheme" value="Вы не можете удалить последнию тему в списке. Должа остаться по крайней мере одна." />
+    <message name="MBox_Warning" value="Предупреждение" />
+    <message name="MBox_DeleteThemeQuest" value="Вы уверены, что хотите удалить тему'{0}'?" />
+    <message name="MBox_DeleteTheme" value="Удалить Тему?" />
+    <message name="MBox_NoCurrTheme" value="Нет текущей темы!" />
+    <message name="MBox_FileNotExist" value="Файл {0} не существует!" />
+    <message name="MBox_NotZeroInterval" value="Нужно уставновить ненулевой период смены обоев!" />
+    <message name="MBox_NotExist" value="{0} не существует!" />
+    <message name="NewVersionReleased" value="Новая версия {0} доступна" />
+    <message name="Version" value="Версия: " />
+    <message name="Version2" value="Версия {0}" />
+    <message name="About" value="О программе {0}" />
+    <message name="BuildOn" value="Построено: {0} {1}" />
+    <message name="MBox_SettingsReadError" value="Произошла ошибка при чтение файла настроек." />
+    <message name="MBox_RestoringSettingsFromBackup" value="Файл настроек восстановлен из резервного файла." />
+    <message name="MBox_ThemesReadError" value="Произошла ошибка при чтение файла тем." />
+    <message name="MBox_RestoringThemesFromBackup" value="Файл тем восстановлен из резервного файла." />
+    <message name="Crash_UnknownError" value="Произошла неизветная ошибка. WallpaperChanger не может выполняться далее." />
+    <message name="Crash_ErrorReportSent" value="Отчет об ошибке отослан. Спасибо за помощь в улучшение " />
+    <message name="Crash_ SendingReportFailed" value=" Отправка отчета об ошибке завершилась неудачно." />
+    <message name="Theme" value="Тема" />
+    <message name="PerformanceSave" value="Выполнение операции сохранения..." />
+  </messages>
+  <forms>
+    <form type="WallpaperChanger.FormMain">
+      <component name="cmTray_LastUpdatedWallLabel" value="Последние обои:" />
+      <component name="cmTray_LastUpdatedWall" value="(нет)" />
+      <component name="cmTray_ActiveChanging" value="Смена активна" />
+      <component name="cmTray_Settings" value="Настройки" />
+      <component name="cmTray_Theme" value="Темы" />
+      <component name="cmTray_HideDesktopIcon" value="Скрыть значки рабочего стола" />
+      <component name="cmTray_NextWall" value="Следующие обои" />
+      <component name="cmTray_PrevWall" value="Предыдущие обои" />
+      <component name="cmTray_Exit" value="Выход" />
+      <tooltip name="listViewLocations" value="Add are file/directory of wallaper" />
+	  <tooltip name="buttonRegisterHotKey" value="Register hotkey in system" />
+      <tooltip name="buttonRefrech" value="Обновить текущие обои" />
+      <tooltip name="buttonNext" value="Следующие обои" />
+      <tooltip name="buttonStart" value="Начать смену" />
+      <tooltip name="buttonPrevious" value="Предыдущие обои" />
+      <tooltip name="buttonMirrorHor" value="Отразить по горизонтали" />
+      <tooltip name="buttonMirrorVer" value="Отразить по вертикали" />
+      <property name="toolStripMenuItem_File.Text" value="Файл" />
+      <property name="toolStripMenuItem_FileNewTheme.Text" value="Новая Тема" />
+      <property name="toolStripMenuItem_FileRenameTheme.Text" value="Переименовать Тему" />
+      <property name="toolStripMenuItem_FileDuplicateTheme.Text" value="Дублировать Тему" />
+      <property name="toolStripMenuItem_FileUpdateTheme.Text" value="Обновить Тему" />
+      <property name="toolStripMenuItem_FileResetWallCount.Text" value="Сбросить счетчик обоев" />
+      <property name="toolStripMenuItem_FileDeleteTheme.Text" value="Удалить Тему" />
+      <property name="toolStripMenuItem_FileSaveTheme.Text" value="Сохранить Темы" />
+      <property name="toolStripMenuItem_FileExit.Text" value="Выход" />
+      <property name="toolStripMenuItem_Help.Text" value="Помощь" />
+      <property name="toolStripMenuItem_Language.Text" value="Язык" />
+      <property name="toolStripMenuItem_HelpCheckUpdate.Text" value="Проверить Обновления" />
+      <property name="toolStripMenuItem_HelpAbout.Text" value="О программе" />
+      <property name="tabPageWall.Text" value="Обои" />
+      <property name="toolStripMenuItem_WallFiles.Text" value="Файлы..." />
+      <property name="toolStripMenuItem_WallDirectory.Text" value="Директории..." />
+      <property name="toolStripMenuItem_WallOpen.Text" value="Открыть" />
+      <property name="toolStripMenuItem_WallExplore.Text" value="Показать" />
+      <property name="toolStripMenuItem_WallSetAsWall.Text" value="Установить как обои" />
+      <property name="toolStripMenuItem_WallDelete.Text" value="Удалить" />
+      <property name="tabPageThemeSettings.Text" value="Настройки Темы" />
+      <property name="grpDisplayMode.Text" value="Режим отображения" />
+      <property name="comboBoxWallTypeChange.Items" value="Последовательно" />
+      <property name="comboBoxWallTypeChange.Items" value="Случайно" />
+      <property name="checkBoxCyclingWallChange.Text" value="Смена обоев по кругу" />
+      <property name="checkBoxResizeTaskbar.Text" value="Масштабировать вычев панель задач" />
+      <property name="labelChanging.Text" value="Смена:" />
+      <property name="labelStyle.Text" value="Стиль:" />
+      <property name="labelPx.Text" value="пикс :" />
+      <property name="comboBoxSmallWallStyle.Items" value="По центру" />
+      <property name="comboBoxSmallWallStyle.Items" value="Замостить" />
+      <property name="comboBoxSmallWallStyle.Items" value="Растянуть" />
+      <property name="comboBoxSmallWallStyle.Items" value="По размеру (масштабировать сохраняя соотношение сторон)" />
+      <property name="comboBoxSmallWallStyle.Items" value="Заполнить (масшатабировать и обрезать сохраняя соотношение сторон)" />
+      <property name="comboBoxSmallWallStyle.Items" value="Не устанавливать" />
+      <property name="labelImageLess.Text" value="Для изображений &lt;= " />
+      <property name="comboBoxWallStyle.Items" value="По центру" />
+      <property name="comboBoxWallStyle.Items" value="Замостить" />
+      <property name="comboBoxWallStyle.Items" value="Растянуть" />
+      <property name="comboBoxWallStyle.Items" value="По размеру (масштабировать сохраняя соотношение сторон)" />
+      <property name="comboBoxWallStyle.Items" value="Заполнить (масшатабировать и обрезать сохраняя соотношение сторон)" />
+      <property name="grpFrequency.Text" value="Частота смены" />
+      <property name="checkBoxChangeOnceADay.Text" value="Не чаще раза в день" />
+      <property name="seconds.Text" value="Секунды" />
+      <property name="minutes.Text" value="Минуты" />
+      <property name="days.Text" value="Дни" />
+      <property name="hours2.Text" value="Часы" />
+      <property name="checkBoxStartupChange.Text" value="Менять обои при старте программы" />
+      <property name="lblFrequency.Text" value="Менять обои каждые" />
+      <property name="groupBoxBackgoundColor.Text" value="Цвет фона" />
+      <property name="labelLinearGradientMode.Text" value="Режим линейного градиента:" />
+      <property name="comboBoxLinearGradientMode.Items" value="Горизонтальный" />
+      <property name="comboBoxLinearGradientMode.Items" value="Вертикальный" />
+      <property name="comboBoxLinearGradientMode.Items" value="Передняя диагональ" />
+      <property name="comboBoxLinearGradientMode.Items" value="Задняя диагональ" />
+      <property name="labelBackgroundColour.Text" value="Цвет фона:" />
+      <property name="labelGradientColour.Text" value="Второй градиентный цвет:" />
+      <property name="labelTypeBackground.Text" value="Тип фона" />
+      <property name="comboBoxTypeBackground.Items" value="автоматический" />
+      <property name="comboBoxTypeBackground.Items" value="одиночный цвет" />
+      <property name="comboBoxTypeBackground.Items" value="градиент" />
+      <property name="comboBoxTypeBackground.Items" value="растягивание краев" />
+      <property name="tabPage1.Text" value="Настройки" />
+      <property name="checkBoxBackupSettings.Text" value="Резервировать настройки и темы при изменениях" />
+      <property name="labelSeconds.Text" value="секунд" />
+      <property name="labelMinutes.Text" value="минут" />
+      <property name="checkBoxDontChangeOnIdle.Text" value="Не изменять при простое более" />
+      <property name="checkBoxShowBalloon.Text" value="Показывать всплывающие уведомления" />
+      <property name="comboBoxUpdateInterval.Items" value="день" />
+      <property name="comboBoxUpdateInterval.Items" value="неделю" />
+      <property name="comboBoxUpdateInterval.Items" value="месяц" />
+      <property name="checkBoxUpdateCheck.Text" value="Проверять обновления раз в" />
+      <property name="checkBoxUseVistaWallResizer.Text" value="Использовать обработчик обоев Vista" />
+      <property name="checkBoxCPULoad.Text" value="Не изменять обои при загрузке процессор более чем" />
+      <property name="checkBoxDeleteFilesOnLoad.Text" value="Удалять не существующие файлы/директории из тем при загрузке программы" />
+      <property name="groupBoxHotKey.Text" value="Горячая клавища" />
+      <property name="buttonRegisterHotKey.Text" value="Зарегестрировать" />
+      <property name="labelHotkeyToChange.Text" value="Горячая клавища для смены обоев:" />
+      <property name="checkBoxEnableHotkeys.Text" value="Включить горячие клаивиши" />
+      <property name="checkBoxStartWithWindows.Text" value="Запускаться вместе с Windows" />
+      <property name="grpTheme.Text" value="Тема" />
+    </form>
+    <form type="WallpaperChanger.FormAbout">
+      <property name="Text" value="О программе WallpaperChanger" />
+    </form>
+    <form type="WallpaperChanger.FormUpdate">
+      <property name="Text" value="Обновление" />
+    </form>
+    <form type="WallpaperChanger.CrashReport">
+      <property name="Text" value="Отчет о падение" />
+      <property name="tabPage1.Text" value="Исключение" />
+      <property name="label2.Text" value="Опционально, Вы можете добавить любую дополнительную информацию которую Вы считаете подходящей, как например что Вы пытались делать в это время. Вы можете включить email адрес если Вы хотите чтобы автор связался с Вами. Вы также можете оставить это поле пустым." />
+      <property name="label1.Text" value="Пожалуйста, помогите нам сделать WallpaperChanger лучше отправив эту ошибку. Просто нажмите &quot;Послать отчет об ошибке&quot; и информация показанная ниже будет отослана. Отчет об этой ошибке поможет авторам исправить эту проблему в будуших выпусках." />
+      <property name="tabPage2.Text" value="Снимок экрана" />
+      <property name="linkLabelView.Text" value="Посмотреть снимок экрана в полный размер" />
+      <property name="groupBoxScreenshot.Text" value="Снимок экрана" />
+      <property name="checkBoxIncludeScreenshot.Text" value="Включить снимок экрана" />
+      <property name="checkBoxRestart.Text" value="Перезапустить Программу" />
+      <property name="buttonDontSend.Text" value="Не посылать" />
+      <property name="buttonSend.Text" value="Послать отчет об ошибке" />
+    </form>
+  </forms>
+</language>

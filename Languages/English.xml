@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language culture="en">
+  <author>D.Borisov</author>
+  <version>1.0</version>
+  <messages>
+    <message name="MBox_CreateThemeFirst" value="Create theme first!" />
+    <message name="MBox_UnableRegisterHotKey" value="Unable to register hotkey for changing of wallpapers.&#xA;The hotkey {0} is assigned to some other event" />
+    <message name="MBox_SuccesRegisterHotKey" value="Successfully register {0} hotkey for changing of wallpapers." />
+    <message name="MBox_UpdateThemeNow" value="Update theme {0} now?" />
+    <message name="MBox_Update" value="Update" />
+    <message name="MBox_YouHaveCurrentVersion" value="You have the current version" />
+    <message name="TotalWall" value="Total wallpapers = " />
+    <message name="CurrentWall" value=", current wallpapers = " />
+    <message name="Ball_NoCurrWall" value="No current wallaper!" />
+    <message name="Ball_NoNextWall" value="No next wallaper!" />
+    <message name="Ball_NoPrevWall" value="No previous wallaper!" />
+    <message name="Ball_WallSetSucces" value="Wallpaper {0} set succesful." />
+    <message name="Ball_WallNotSet" value="Wallpaper {0} not set!" />
+    <message name="None" value="(none)" />
+    <message name="NextChangeAt" value="Next change at " />
+    <message name="NotActive" value="Not Active" />
+    <message name="MBox_FileAlreadyInListView" value="File already in ListView!" />
+    <message name="MBox_DirAlreadyInListView" value="Directory already in ListView!" />
+    <message name="NewTheme" value="New Theme" />
+    <message name="NewThemePrompt" value="Enter a name for the new theme:" />
+    <message name="RenameTheme" value="Rename Theme" />
+    <message name="RenameThemePrompt" value="Enter the new name for the theme:" />
+    <message name="MBox_RenameThemeNewName" value="Rename Theme in &quot;{0}&quot;?" />
+    <message name="DuplicateTheme" value="Duplicate Theme" />
+    <message name="DuplicateThemePrompt" value="Enter the new name for the duplicate theme:" />
+    <message name="MBox_ThemeWithNameExist" value="Theme with name &quot;{0}&quot; is alreade exist!" />
+    <message name="MBox_DeleteLastTheme" value="You cannot delete the last theme in the list. There must be at least one theme present." />
+    <message name="MBox_Warning" value="Warning" />
+    <message name="MBox_DeleteThemeQuest" value="Are you sure you want to delete the theme '{0}'?" />
+    <message name="MBox_DeleteTheme" value="Delete Theme?" />
+    <message name="MBox_NoCurrTheme" value="No current theme!" />
+    <message name="MBox_FileNotExist" value="File {0} not exist!" />
+    <message name="MBox_NotZeroInterval" value="Need set not zero interval of changing wallpaper" />
+    <message name="MBox_NotExist" value="{0} not exist!" />
+    <message name="NewVersionReleased" value="New version {0} released" />
+    <message name="Version" value="Version:" />
+    <message name="Version2" value="Version {0}" />
+    <message name="About" value="About {0}" />
+    <message name="BuildOn" value="Build on: {0} {1}" />
+    <message name="MBox_SettingsReadError" value="An error occurred while reading the file of settings." />
+    <message name="MBox_RestoringSettingsFromBackup" value="File of settings restored from a backup file." />
+    <message name="MBox_ThemesReadError" value="An error occurred while reading the file of themes." />
+    <message name="MBox_RestoringThemesFromBackup" value="File of themes restored from a backup file." />
+    <message name="Crash_UnknownError" value="An unknown error has occurred. WallpaperChanger cannot continue." />
+    <message name="Crash_ErrorReportSent" value="Error report sent. Thank you for helping to improve " />
+    <message name="Crash_ SendingReportFailed" value=" Sending report failed." />
+    <message name="Theme" value="Theme" />
+    <message name="PerformanceSave" value="Performance save operation..." />
+  </messages>
+  <forms>
+    <form type="WallpaperChanger.FormMain">
+      <component name="cmTray_LastUpdatedWallLabel" value="Last updated wallpaper:" />
+      <component name="cmTray_LastUpdatedWall" value="(none)" />
+      <component name="cmTray_ActiveChanging" value="Active changing" />
+      <component name="cmTray_Settings" value="Settings" />
+      <component name="cmTray_Theme" value="Themes" />
+      <component name="cmTray_HideDesktopIcon" value="Hide desktop icons" />
+      <component name="cmTray_NextWall" value="Next wallpaper" />
+      <component name="cmTray_PrevWall" value="Previous wallpaper" />
+      <component name="cmTray_Exit" value="Exit" />
+      <tooltip name="listViewLocations" value="Добавьте файл или директорию с обоями" />
+      <tooltip name="buttonRegisterHotKey" value="Register hotkey in system" />
+      <tooltip name="buttonRefrech" value="Refresh current wallpaper" />
+      <tooltip name="buttonNext" value="Next wallpaper" />
+      <tooltip name="buttonStart" value="Start changing" />
+      <tooltip name="buttonPrevious" value="Previosly wallpaper" />
+      <tooltip name="buttonMirrorHor" value="Flip horizontal" />
+      <tooltip name="buttonMirrorVer" value="Flip vertical" />
+      <property name="toolStripMenuItem_File.Text" value="File" />
+      <property name="toolStripMenuItem_FileNewTheme.Text" value="New Theme" />
+      <property name="toolStripMenuItem_FileRenameTheme.Text" value="Rename Theme" />
+      <property name="toolStripMenuItem_FileDuplicateTheme.Text" value="Duplicate Theme" />
+      <property name="toolStripMenuItem_FileUpdateTheme.Text" value="Update Theme" />
+      <property name="toolStripMenuItem_FileResetWallCount.Text" value="Reset wallpapers count" />
+      <property name="toolStripMenuItem_FileDeleteTheme.Text" value="Delete Theme" />
+      <property name="toolStripMenuItem_FileSaveTheme.Text" value="Save Themes" />
+      <property name="toolStripMenuItem_FileExit.Text" value="Exit" />
+      <property name="toolStripMenuItem_Help.Text" value="Help" />
+      <property name="toolStripMenuItem_Language.Text" value="Language" />
+      <property name="toolStripMenuItem_HelpCheckUpdate.Text" value="Check for Update" />
+      <property name="toolStripMenuItem_HelpAbout.Text" value="About" />
+      <property name="tabPageWall.Text" value="Wallpapers" />
+      <property name="toolStripMenuItem_WallFiles.Text" value="Files..." />
+      <property name="toolStripMenuItem_WallDirectory.Text" value="Directory..." />
+      <property name="toolStripMenuItem_WallOpen.Text" value="Open" />
+      <property name="toolStripMenuItem_WallExplore.Text" value="Explore" />
+      <property name="toolStripMenuItem_WallSetAsWall.Text" value="Set as wallpaper" />
+      <property name="toolStripMenuItem_WallDelete.Text" value="Delete" />
+      <property name="tabPageThemeSettings.Text" value="Theme setting" />
+      <property name="grpDisplayMode.Text" value="Display Mode" />
+      <property name="comboBoxWallTypeChange.Items" value="Sequential" />
+      <property name="comboBoxWallTypeChange.Items" value="Random" />
+      <property name="checkBoxCyclingWallChange.Text" value="Cycling wallpaper changing" />
+      <property name="checkBoxResizeTaskbar.Text" value="Resize minus taskbar" />
+      <property name="labelChanging.Text" value="Changing:" />
+      <property name="labelStyle.Text" value="Style:" />
+      <property name="labelPx.Text" value="px :" />
+      <property name="comboBoxSmallWallStyle.Items" value="Center" />
+      <property name="comboBoxSmallWallStyle.Items" value="Tile" />
+      <property name="comboBoxSmallWallStyle.Items" value="Stretch" />
+      <property name="comboBoxSmallWallStyle.Items" value="Fit (resized while maintaining the aspect ratio)" />
+      <property name="comboBoxSmallWallStyle.Items" value="Fill (resized and cropped while maintaining the aspect ratio)" />
+      <property name="comboBoxSmallWallStyle.Items" value="Not set" />
+      <property name="labelImageLess.Text" value="For images &lt;= to" />
+      <property name="comboBoxWallStyle.Items" value="Center" />
+      <property name="comboBoxWallStyle.Items" value="Tile" />
+      <property name="comboBoxWallStyle.Items" value="Stretch" />
+      <property name="comboBoxWallStyle.Items" value="Fit (resized while maintaining the aspect ratio)" />
+      <property name="comboBoxWallStyle.Items" value="Fill (resized and cropped while maintaining the aspect ratio)" />
+      <property name="grpFrequency.Text" value="Change Frequency" />
+      <property name="checkBoxChangeOnceADay.Text" value="No more often once are day" />
+      <property name="seconds.Text" value="Seconds" />
+      <property name="minutes.Text" value="Minutes" />
+      <property name="days.Text" value="Days" />
+      <property name="hours2.Text" value="Hours" />
+      <property name="checkBoxStartupChange.Text" value="Change wallpaper on program startup" />
+      <property name="lblFrequency.Text" value="Change wallpaper every" />
+      <property name="groupBoxBackgoundColor.Text" value="Background Color" />
+      <property name="labelLinearGradientMode.Text" value="Linear Gradient Mode:" />
+      <property name="comboBoxLinearGradientMode.Items" value="Horizontal" />
+      <property name="comboBoxLinearGradientMode.Items" value="Vertical" />
+      <property name="comboBoxLinearGradientMode.Items" value="ForwardDiagonal" />
+      <property name="comboBoxLinearGradientMode.Items" value="BackwardDiagonal" />
+      <property name="labelBackgroundColour.Text" value="Background Colour:" />
+      <property name="labelGradientColour.Text" value="Second Gradient Color:" />
+      <property name="labelTypeBackground.Text" value="Type background:" />
+      <property name="comboBoxTypeBackground.Items" value="automatic" />
+      <property name="comboBoxTypeBackground.Items" value="single-colour" />
+      <property name="comboBoxTypeBackground.Items" value="gradient" />
+      <property name="comboBoxTypeBackground.Items" value="stretch edges" />
+      <property name="tabPage1.Text" value="Setting" />
+      <property name="checkBoxBackupSettings.Text" value="Backup settings and themes on changing" />
+      <property name="labelSeconds.Text" value="Seconds" />
+      <property name="labelMinutes.Text" value="Minutes" />
+      <property name="checkBoxDontChangeOnIdle.Text" value="Dont change on idle more them" />
+      <property name="checkBoxShowBalloon.Text" value="Show Balloon notification" />
+      <property name="comboBoxUpdateInterval.Items" value="day" />
+      <property name="comboBoxUpdateInterval.Items" value="week" />
+      <property name="comboBoxUpdateInterval.Items" value="month" />
+      <property name="checkBoxUpdateCheck.Text" value="Check update once are" />
+      <property name="checkBoxUseVistaWallResizer.Text" value="Use Vista wallpaper resizer" />
+      <property name="checkBoxCPULoad.Text" value="Dont change wallpaper on CPU load more than" />
+      <property name="checkBoxDeleteFilesOnLoad.Text" value="Delete not exist file/directory from themes on program load" />
+      <property name="groupBoxHotKey.Text" value="HotKey" />
+      <property name="buttonRegisterHotKey.Text" value="Register" />
+      <property name="labelHotkeyToChange.Text" value="Hotkey to change wallpaper:" />
+      <property name="checkBoxEnableHotkeys.Text" value="Enable hotkeys" />
+      <property name="checkBoxStartWithWindows.Text" value="Start With Windows" />
+      <property name="grpTheme.Text" value="Theme" />
+    </form>
+    <form type="WallpaperChanger.FormAbout">
+      <property name="Text" value="About WallpaperChanger" />
+    </form>
+    <form type="WallpaperChanger.FormUpdate">
+      <property name="Text" value="Update" />
+    </form>
+    <form type="WallpaperChanger.CrashReport">
+      <property name="Text" value="CrashReport" />
+      <property name="tabPage1.Text" value="Exception" />
+      <property name="label2.Text" value="Optionally, you may add any additional information that you deem appropriate, such as what you were trying to do at the time. You can include your email address if you would like the authors to contact you. You may also leave this box blank." />
+      <property name="label1.Text" value="Please help us make WallpaperChanger a better program by reporting this error. Simply click &quot;Send Error Report&quot; and the information shown below will be sent. Reporting this error will help the authors to fix this problem in future releases." />
+      <property name="tabPage2.Text" value="Screenshot" />
+      <property name="linkLabelView.Text" value="View Full Screenshot" />
+      <property name="groupBoxScreenshot.Text" value="Screenshot" />
+      <property name="checkBoxIncludeScreenshot.Text" value="Include Screenshot" />
+      <property name="checkBoxRestart.Text" value="Restart Program" />
+      <property name="buttonDontSend.Text" value="Don't Send" />
+      <property name="buttonSend.Text" value="Send Error Report" />
+    </form>
+  </forms>
+</language>

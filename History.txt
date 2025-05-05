@@ -1,0 +1,74 @@
+﻿Version 1.0
+First release
+
+Version 1.0.5150
+Fix work hotkey on hide/show.
+
+Version 1.1
+Add support drag and drop.
+
+Version 1.1.5169
+Fix drag and drop.
+
+Version 1.1.5198
+Add save themes on shutdown.
+
+Version 1.1.5225
+Add item "Not set" for small image.
+
+Version 1.1.5227
+Add checking focused item in wallpaper list on null value and catch out of memory exception.
+
+Version 1.1.5232
+Fix crash on image changing in case of the empty list of wallpapers and random changing.
+
+Version 1.1.5240
+Fix crash on IsCyclingWallChange and empty wallpaper list.
+
+Version 1.1.5248
+Delete call non-existent language string and replace ShowBalloonTip on MessageBox.Show for "No current wallpaper".
+
+Version 1.1.5251
+Check file exist on refresh current wallpaper. Add show current wallpaper number in status. Minor fix.
+
+Version 1.1.5257
+Fix delete theme. Previously delete theme with index selected on combo box which not coincide with theme index.
+
+Version 1.1.5267
+Fix show current wallpaper index.
+
+Version 1.1.5268
+Add check of the installed .NET Framework 3.5.
+
+Version 1.1.5271
+Fix cycling wallpapers in both directions.
+
+Version 1.1.5288
+Add screenshot to crashreport.
+
+Version 1.1.5296
+Add type Streth Edges. Fix not worked single color and gradient.
+
+Version 1.1.5312
+Fix set colors. Add save settings and themes on system shutdown.
+
+Version 1.1.5332
+Added restoring from backup file at damage file of themes or settings.
+
+Version 1.1.5402
+Added delay of shutdown for save file of themes and settings.
+
+Version 1.1.5407
+Added history for random changing. Fixed RefreshCurrentWallpaper on changed settings.
+
+Version 1.1.5408
+Added path in tooltip for last updated wallpaper in tray menu.
+
+Version 1.1.5457
+Edit function CheckCPULoad.
+
+Version 1.1.5465
+Edit function CheckCPULoad(), fix load from settings in GUI CPU percent.
+
+Version 1.1.5499
+Added check _themes != null in GetCurrentThemeIndex(). Added save crash report log to file in program directory.
